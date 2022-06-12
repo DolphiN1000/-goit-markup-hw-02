@@ -21,13 +21,14 @@ body {
     color: var(--main-color);
 }
 
-.link {
+.nav-link {
     font-size:14;
-    font-weight: ;
+    font-weight:500 ;
+
 }
 
-.link:hover,
-.link:focus  {
+.nav-link:hover,
+.nav-link:focus  {
     color: #2196F3;
 }
 
@@ -39,4 +40,10 @@ body {
 
 span {
     color: var(--current-color);
+}
+.button {
+     
+}
+.list {
+    list-style: none;
 }
