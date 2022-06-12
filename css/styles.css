@@ -1,136 +1,140 @@
 :root {
-    /*Fonts*/
-    --main-font-family: 'Roboto', sans-serif;
+  /*Fonts*/
+  --main-font-family: "Roboto", sans-serif;
 
-    /*Colors*/
-    --main-dark-color: #000;
-    --main-light-color: #fff;
-    --current-color: #2196F3;
-    --main-color: #757575;
-    --secondary-color: #212121;
-    --background-dark-color: #2F303A;
-    --background-light-color: #E5E5E5;
-    --backgronud-button-color: #F5F4FA;
-
-
+  /*Colors*/
+  --main-dark-color: #000;
+  --main-light-color: #fff;
+  --current-color: #2196f3;
+  --main-color: #757575;
+  --secondary-color: #212121;
+  --background-dark-color: #2f303a;
+  --background-light-color: #e5e5e5;
+  --backgronud-button-color: #f5f4fa;
 }
 
 body {
-    font-family: var(--main-font-family);
-    font-size: 14;
-    font-weight: 400;
-    line-height: 1.71;
-    color: var(--main-color);
+  font-family: var(--main-font-family);
+  font-size: 14;
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--main-color);
 }
 
 .nav-link {
-    text-decoration: none;
-    font-size:14;
-    font-weight:500 ;
-    line-height: 1.14;
-    color: #212121;
+  text-decoration: none;
+  font-size: 14;
+  font-weight: 500;
+  line-height: 1.14;
+  color: #212121;
 }
 
 .nav-link:hover,
-.nav-link:focus  {
-    color: #2196F3;
+.nav-link:focus {
+  color: #2196f3;
 }
 
 .contact-nav-link {
-    text-decoration: none;
-    font-size: 14;
-    font-weight: 500;
-    line-height: 1.14;
-    color: var(--main-color);
+  text-decoration: none;
+  font-size: 14;
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--main-color);
 }
 
 .contact-nav-linkk:hover,
 .contact-nav-link:focus {
-    color: #2196F3;
+  color: #2196f3;
 }
 
 .contact-footer-link {
-    text-decoration: none;
-    font-size: 14;
-    font-weight: 500;
-    line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 14;
+  font-weight: 500;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .contact-footer-linkk:hover,
 .contact-footer-link:focus {
-    color: #2196F3;
+  color: #2196f3;
 }
 
 .main-logo {
-    text-decoration: none;
-    color: var(--main-dark-color);
-    font-family:  'Raleway' ;
-    font-size: 26px;
-    font-weight: 700;
+  text-decoration: none;
+  color: var(--main-dark-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
 }
 
 .footer-logo {
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    color: var(--main-light-color);
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--main-light-color);
 }
 
 span {
-    color: var(--current-color);
+  color: var(--current-color);
 }
 .hero-button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    color: #F5F4FA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;     
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus {
-    background-color: var(--current-color);
+  background-color: var(--current-color);
 }
 
 .button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    color: var(--backgronud-button-color: #F5F4FA);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--backgronud-button-color: #f5f4fa);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .button:hover,
 .button:focus {
-    background-color: var(--current-color);
+  background-color: var(--current-color);
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .gps-footer-link {
-    color: var(--main-light-color);
+  color: var(--main-light-color);
 }
 
 .gps-footer-link:hover,
-.gps-footer-link:focus{
-    color: var(--current-color)
+.gps-footer-link:focus {
+  color: var(--current-color);
 }
-.section-heder {}
+.section-heder {
+}
 
-.nav {}
+.nav {
+}
 
-.contact-nav-link {}
+.contact-nav-link {
+}
 
+.section-filter {
+}
 
-.section-filter {}
+.section-work {
+}
 
-.section-work {}
-
-.section-footer {}
+.section-footer {
+}
