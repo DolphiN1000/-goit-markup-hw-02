@@ -19,13 +19,15 @@ body {
     font-family: var(--main-font-family);
     font-size: 14;
     font-weight: 400;
+    line-height: 1.71;
     color: var(--main-color);
 }
 
 .nav-link {
+    text-decoration: none;
     font-size:14;
     font-weight:500 ;
-
+    line-height: 1.14;
 }
 
 .nav-link:hover,
@@ -33,7 +35,33 @@ body {
     color: #2196F3;
 }
 
+.contact-nav-link {
+    text-decoration: none;
+    font-size: 14;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.contact-nav-linkk:hover,
+.contact-nav-link:focus {
+    color: #2196F3;
+}
+
+.contact-footer-link {
+    text-decoration: none;
+    font-size: 14;
+    font-weight: 500;
+    line-height: 1.71;
+}
+
+.contact-footer-linkk:hover,
+.contact-footer-link:focus {
+    color: #2196F3;
+}
+
 .main-logo {
+    text-decoration: none;
+    color: var(--main-dark-color);
     font 'Raleway' ;
     font-size: 26px;
     font-weight: 700;
@@ -53,12 +81,18 @@ span {
     color: var(--current-color);
 }
 .hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
     color: var(--current-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;     
 }
 
 .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
     color: var(--backgronud-button-color: #F5F4FA);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
@@ -67,3 +101,17 @@ span {
 .list {
     list-style: none;
 }
+
+
+.section-heder {}
+
+.nav {}
+
+.contact-nav-link {}
+
+
+.section-filter {}
+
+.section-work {}
+
+.section-footer {}
