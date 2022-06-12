@@ -114,6 +114,10 @@ span {
     list-style: none;
 }
 
+.gps-footer-link {
+    color: var(--main-light-color);
+}
+
 
 .section-heder {}
 
