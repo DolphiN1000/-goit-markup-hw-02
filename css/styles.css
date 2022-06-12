@@ -9,7 +9,8 @@
     --main-color: #757575;
     --secondary-color: #212121;
     --background-dark-color: #2F303A;
-    --background-light-color:#E5E5E5;
+    --background-light-color: #E5E5E5;
+    --backgronud-button-color: #F5F4FA;
 
 
 }
@@ -32,18 +33,37 @@ body {
     color: #2196F3;
 }
 
-.logo {
+.main-logo {
     font 'Raleway' ;
     font-size: 26px;
     font-weight: 700;
 }
 
+.footer-logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--main-light-color);
+}
+
 span {
     color: var(--current-color);
 }
-.button {
-     
+.hero-button {
+    color: var(--current-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;     
 }
+
+.button {
+    color: var(--backgronud-button-color: #F5F4FA);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
 .list {
     list-style: none;
 }
