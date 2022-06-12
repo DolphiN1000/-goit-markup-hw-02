@@ -63,7 +63,7 @@ body {
 .main-logo {
     text-decoration: none;
     color: var(--main-dark-color);
-    font 'Raleway' ;
+    font-family:  'Raleway' ;
     font-size: 26px;
     font-weight: 700;
 }
