@@ -118,7 +118,10 @@ span {
     color: var(--main-light-color);
 }
 
-
+.gps-footer-link:hover,
+.gps-footer-link:focus{
+    color: var(--current-color)
+}
 .section-heder {}
 
 .nav {}
