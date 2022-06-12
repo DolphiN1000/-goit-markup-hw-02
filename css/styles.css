@@ -1,4 +1,42 @@
+:root {
+    /*Fonts*/
+    --main-font-family: 'Roboto', sans-serif;
 
-.body {
-    font-family: 'Raleway', 'Roboto', sans-serif;
+    /*Colors*/
+    --main-dark-color: #000;
+    --main-light-color: #fff;
+    --current-color: #2196F3;
+    --main-color: #757575;
+    --secondary-color: #212121;
+    --background-dark-color: #2F303A;
+    --background-light-color:#E5E5E5;
+
+
+}
+
+body {
+    font-family: var(--main-font-family);
+    font-size: 14;
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+.link {
+    font-size:14;
+    font-weight: ;
+}
+
+.link:hover,
+.link:focus  {
+    color: #2196F3;
+}
+
+.logo {
+    font 'Raleway' ;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+span {
+    color: var(--current-color);
 }
