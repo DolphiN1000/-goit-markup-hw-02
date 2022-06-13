@@ -193,6 +193,7 @@ span {
 }
 
 .section-filter {
+  background-color: var(--background-light-color);
 }
 
 .section-work {
