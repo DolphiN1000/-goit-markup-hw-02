@@ -54,7 +54,7 @@ body {
   text-decoration: none;
   font-size: 14;
   font-weight: 500;
-  line-height: 1.71;
+  line-height: 1.71;  
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -249,4 +249,8 @@ span {
   line-height: 1.88;
   color: var(--main-color)
 }
-.
+
+.contact {
+  text-decoration: none;
+  font-style: normal;
+}
